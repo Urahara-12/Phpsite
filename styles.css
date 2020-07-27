@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    color: white;
+    object-fit:stretch;
+    position:relative; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+
+}
+html{
+    height: 100%;   
+    background-image:url(bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+div{
+    color:white;
+    text-align: center;
+
+}
+.header{
+    
+    color:white;
+    margin:20px;
+    padding:20px;    
+
+}
+div .first{
+    background-color: grey;
+    display:flex;
+    margin:20px;
+    padding:20px;
+
+
+}
+nav{
+    display:flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.second{
+     margin:20px;
+    padding:20px;
+    height:50vh;
+    text-decoration: none;
+}
+li{
+    margin:  4px;
+}
+
+.footer{
+    padding:20px;
+    margin:20px;
+    height:10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sign-up-form{
+    width: 30%;
+    box-shadow: 0 0 3px 0 rgba(0, 0,0,0.3);
+    background: #fff;
+    padding:20px;
+    margin:8% auto 0;
+    text-align: center;
+}
+.sign-up-form h2 {
+    color: goldenrod;
+}
+.input-box{
+    border-radius: 20px;
+    padding:10px;
+    margin:10px 0;
+    width :100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: goldenrod;
+    width:30%;
+    padding:10px;
+    border-radius: 20px;
+    font-size: 15px ;
+    margin: 10px 0;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
