@@ -1,2 +1,4 @@
 Welcome to this repo stalker, on here I will document my journey on learning the
 web technologies, in here ill be learning php >:]
+
+install XAMPP and run the apache server and db, then pull and run in your local host
